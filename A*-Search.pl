@@ -14,7 +14,6 @@ setof(X,arc(Node,X, Seed), FNode),
 addToFrontier(FNode,FRest,FNew, Target),
 search(FNew, Seed, Target, Found).
 
-
 addToFrontier([], Frontier, Frontier, _).
 addToFrontier(Node, [], Node, _).
 
